@@ -534,7 +534,7 @@ header{
     margin-left: 568px;
     margin-top: 50px;
 }
-.testomonials-para{
+.testomonials-para1{
     width: 56%;
     color: #346b53;
     font-size: 30px;
@@ -543,4 +543,15 @@ header{
     text-align: center;
     margin-left: 272px;
     margin-top: 20px;
+    margin-bottom: 22px;
+}
+.testomonials-para2{
+    font-size: 17px;
+    color: #346b53;
+    margin-bottom: 3px;
+    text-align: center;
+}
+.boxes{
+    margin-left: 587px;
+    margin-top: 19px;
 }
