@@ -12,43 +12,52 @@
 <body>
     <!-- section 1 code starts -->
     <nav>
-        <a href="#"><img
+        <a href="#"><img class="jobly-image"
                 src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/6113a7f2dc67833d070ea4b7_logo.png"></a>
-        <div>
-            <select>
-                <option value="home">Home</option>
-            </select>
-            <a href="#">Jobs</a>
-            <select>
-                <option value="categories">Categories</option>
-            </select>
-            <select>
-                <option value="loction">Location</option>
-            </select>
-            <select>
-                <option value="pages">Pages</option>
-            </select>
-            <a href="#"><img src="./images/svgexport-1 (1).svg"></a>
+        <div class="nav__div1">
             <div>
-                <a href="#">o</a>
+                <select class="nav__selector">
+                    <option value="home">Home</option>
+                </select>
+                <a class="nav__link" href="#">Jobs</a>
+                <select class="nav__selector">
+                    <option value="categories">Categories</option>
+                </select>
+                <select class="nav__selector">
+                    <option value="loction">Location</option>
+                </select>
+                <select class="nav__selector">
+                    <option value="pages">Pages</option>
+                </select>
+            </div>
+            <div class="nav__div2">
+                <a href="#"><img class="bag-image" src="./images/svgexport-1 (1).svg"></a>
+                <div>
+                    <a class="nav__linkwithbackground" href="#">o</a>
+                </div>
             </div>
         </div>
-        <button>Log In / Register</button>
+        <button class="nav__button">Log In / Register</button>
     </nav>
     <header>
         <div>
             <div>
-                <h3>Build your future with us</h3>
+                <h3 class="header__toptext">Build your future with us</h3>
             </div>
-            <h1>Get your dream job with Jobly.</h1>
-            <p>Find jobs, create trackable resumes and enrich your applications</p>\
-            <input type="text" placeholder="Job Title,Keywords">
-            <a href="#">Popular Categories:</a>
-            <a href="#">Customer Services</a>
-            <a href="#">Project Management</a>
-            <a href="#">Development</a>
+            <h1 class="header__title1">Get your dream job with Jobly.</h1>
+            <p class="header__paragraph">Find jobs, create trackable resumes and enrich your applications</p>
+            <form class="header__form">
+                <input class="search-input" type="search" placeholder="Job Title,Keywords...">
+                <input class="jobs-input" type="submit" value="Find Jobs">
+            </form>
+            <div class="header__div">
+                <p class="categories-text-gray">Popular Categories:</p>
+                <a class="header__links" href="#">Customer Services</a>
+                <a class="header__links" href="#">Project Management</a>
+                <a class="header__links" href="#">Development</a>
+            </div>
         </div>
-        <img src="images/jobly.png">
+        <img class="jobly-people-image" src="images/jobly.png">
     </header>
     <!-- section 1 code ends -->
 
@@ -134,7 +143,8 @@
                         <h1>Part Time</h1>
                     </div>
                 </div>
-                <img src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d7fa595f5ae1a9e0495a_icons8-paypal-256.png">
+                <img
+                    src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d7fa595f5ae1a9e0495a_icons8-paypal-256.png">
                 <h1>PayPal</h1>
                 <h1>General Ledger Accountant</h1>
                 <div>
@@ -156,7 +166,8 @@
                         <h1>Part Time</h1>
                     </div>
                 </div>
-                <img src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d794a9ad5e00ca49f932_icons8-apple-logo-256.png">
+                <img
+                    src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d794a9ad5e00ca49f932_icons8-apple-logo-256.png">
                 <h1>Apple</h1>
                 <h1>Senior Product Designer</h1>
                 <div>
@@ -174,7 +185,8 @@
             <div>
                 <h1>Full Time</h1>
             </div>
-            <img src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d7533f0b13c26bbabf8d_icons8-starbucks-256.png">
+            <img
+                src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d7533f0b13c26bbabf8d_icons8-starbucks-256.png">
             <h1>Starbuck</h1>
             <h1>Product Manager</h1>
             <div>
@@ -191,7 +203,8 @@
             <div>
                 <h1>Full Time</h1>
             </div>
-            <img src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d711d9772ff74589aa98_icons8-dell-256.png">
+            <img
+                src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d711d9772ff74589aa98_icons8-dell-256.png">
             <h1>Dell</h1>
             <h1>Software Engineer</h1>
             <div>
@@ -213,7 +226,8 @@
                     <h1>Part Time</h1>
                 </div>
             </div>
-            <img src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d39e779fe37a99f0f3e0_icons8-slack-256.png">
+            <img
+                src="https://assets.website-files.com/61139ac7385e7459f5a2c733/6113d39e779fe37a99f0f3e0_icons8-slack-256.png">
             <h1>Slack</h1>
             <h1>Recruiting Coordinator</h1>
             <div>
@@ -383,7 +397,8 @@
     <section>
         <button>Contact Us</button>
         <h1>Got a question?</h1>
-        <p>We're here to help. Check out our <a href="#">FAQs</a>, send us an <a href="#">email</a> or call us at <a href="#">+1 800 444 111</a></p>
+        <p>We're here to help. Check out our <a href="#">FAQs</a>, send us an <a href="#">email</a> or call us at <a
+                href="#">+1 800 444 111</a></p>
     </section>
     <!-- section 6 code ends -->
 
@@ -392,7 +407,7 @@
         <div>
             <div>
                 <a href="#"><img
-                    src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/6113a7f2dc67833d070ea4b7_logo.png"></a>
+                        src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/6113a7f2dc67833d070ea4b7_logo.png"></a>
                 <button>View on Weblfow</button>
             </div>
             <div>
@@ -403,10 +418,14 @@
                     <a href="#">Pricing</a>
                     <a href="#">Contact</a>
                     <div>
-                        <a href="#"><img src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e741c04a2c795_twitter.svg"></a>
-                        <a href="#"><img src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e74b540a2c796_instagram.svg"></a>
-                        <a href="#"><img src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e741f8ca2c794_slack.svg"></a>
-                        <a href="#"><img src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e74c2c8a2c79b_dribbble.svg"></a>
+                        <a href="#"><img
+                                src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e741c04a2c795_twitter.svg"></a>
+                        <a href="#"><img
+                                src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e74b540a2c796_instagram.svg"></a>
+                        <a href="#"><img
+                                src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e741f8ca2c794_slack.svg"></a>
+                        <a href="#"><img
+                                src="https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/61139ac7385e74c2c8a2c79b_dribbble.svg"></a>
                     </div>
                 </div>
                 <div>
