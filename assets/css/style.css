@@ -169,3 +169,97 @@ header{
 .header__links:hover{
     text-decoration: underline;
 }
+.jobly-works{
+    padding: 80px 67px;
+}
+.jobly-works-para1{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 23px;
+    text-align: center;
+}
+.newwave-image{
+    width: 70px;
+    height: 35px;
+    margin: 0 30px;
+}
+.friday-image{
+    width: 85px;
+    height: 20px;
+    margin: 0 30px;
+}
+.backyard-image{
+    width: 90px;
+    height: 35px;
+    margin: 0 30px;
+}
+.webflow-image{
+    width: 90px;
+    height: 22px;
+    margin: 0 30px;
+}
+.retro-image{
+    width: 80px;
+    height: 44px;
+    margin: 0 30px;
+}
+.jobly-works-images-div{
+    display: flex;
+    align-items: center;
+    margin-left: 275px;
+    margin-top: 20px;
+}
+.jobly-works-toptext{
+    padding: 4px 10px;
+    border-radius: 2px;
+    background-color: #E4F5EE;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 540px;
+    margin-top: 80px;
+    margin-left: 516px;
+}
+.jobly-works-title2{
+    font-size: 46px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.jobly-works-div1{
+    display: flex;
+    margin: 52px 120px 10px 206px;
+}
+.jobly-works-icons{
+    width: 50px;
+    height: 50px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+.jobly-works-div2{
+    padding: 10px;
+}
+.jobly-works-heading1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.jobly-works-heading2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-left: 28px;
+}
+.jobly-works-para2{
+    margin-bottom: 10px;
+    color: #686868;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    width: 82%;
+}
