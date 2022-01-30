@@ -170,7 +170,7 @@ header{
     text-decoration: underline;
 }
 .jobly-works{
-    padding: 80px 67px;
+    padding: 80px 67px 60px 67px;
 }
 .jobly-works-para1{
     font-size: 17px;
@@ -262,4 +262,285 @@ header{
     line-height: 23px;
     font-weight: 400;
     width: 82%;
+}
+.featured-jobs{
+    padding: 80px 67px;
+    background-color: #f2f8f5;
+}
+.featured-jobs-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.featured-jobs-heading{
+    margin-top: 10px;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.featured-jobs-para1{
+    color: #1c4a36;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+.featured-jobs-button{
+    background-color: #1c4a36;
+    color: #fff;
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    margin-top: 27px;
+}
+.featured-jobs-div2{
+    display: flex;
+    margin-top: 50px;
+}
+.featured-jobs-para2{
+    line-height: 23px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: #919191;
+    font-size: 14px;
+}
+.featured-jobs-para2:hover{
+    text-decoration: underline;
+}
+.featured-jobs-links{
+    line-height: 23px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: #686868;
+    font-size: 14px;
+    text-decoration: none;
+}
+.featured-jobs-links:hover{
+    text-decoration: underline;
+}
+.ball-image{
+    width: 55px;
+    height: 55px;
+    margin-left: 143px;
+}
+.featured-jobs-part-time{
+    padding: 4px 10px;
+    border-radius: 2px;
+    background-color: #E4F5EE;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: -16px;
+    margin-left: 278px;
+    margin-top: -15px;
+}
+.featured-jobs-part-time2{
+    padding: 4px 10px;
+    border-radius: 2px;
+    background-color: #E4F5EE;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: -18px;
+    margin-top: -15px;
+}
+.featured-jobs-featured{
+    padding: 4px 10px;
+    border-radius: 2px;
+    background-color: #f3d0e4;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.featured-jobs-balls-div{
+    background-color: #fff;
+    padding: 25px;
+    width: 344px;
+    height: 269px;
+    margin-right: 17px;
+}
+.featured-jobs-div3{
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+.featured-jobs-div4{
+    display: flex;
+    margin-bottom: 50px;
+}
+.company-name{
+    color: #1c4a36;
+    font-size: 15px;
+    text-align: center;
+}
+.job-name{
+    color: #1c4a36;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+}
+.featured-jobs-links{
+    color: #868686;
+    font-size: 14px;
+    line-height: 26px;
+    margin-right: 10px;
+}
+.featured-jobs-links:hover{
+    color: #333333;
+}
+.featured-jobs-button{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1c4a36;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.featured-jobs-button:hover{
+    background-color: #377057;
+}
+.featured-jobs-links-div{
+    text-align: center;
+}
+.featured-jobs-topdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.subhead{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.blog-overlay{
+    display: flex;
+    justify-content: space-around;
+}
+.job-name-white{
+    background-image: url('https://assets.website-files.com/61139ac7385e7459f5a2c733/6113efe1f15ea61d44ebdf19_miami.jpg');
+    background-size: cover;
+    width: 277px;
+    height: 180px;
+}
+.job-name-white-head{
+    padding: 0 80px 30px 80px;
+    font-size: 22px;
+    margin-top: 140px;
+    text-align: center;
+    color: #fff;
+}
+.job-name-uk-head{
+    padding: 0 80px 30px 80px;
+    font-size: 22px;
+    margin-top: 139px;
+    text-align: center;
+    color: #fff;
+    width: 56%;
+    margin-left: -22px;
+}
+.job-name-ny{
+    background-size: cover;
+    width: 277px;
+    height: 180px;
+    background-image: url('https://assets.website-files.com/61139ac7385e7459f5a2c733/6113efeda7cb92c6f8caaa81_man.jpg');
+}
+.job-name-uk{
+    background-size: cover;
+    width: 277px;
+    height: 180px;
+    background-image: url('https://assets.website-files.com/61139ac7385e7459f5a2c733/6113eff54a0219a30c964948_london.jpg');
+}
+.job-name-remote{
+    background-size: cover;
+    width: 277px;
+    height: 180px;
+    background-image: url('https://assets.website-files.com/61139ac7385e7459f5a2c733/6113efff48b4aa1a2a3c70b6_remote.jpg');
+}
+.featured-jobs-faq{
+    padding: 4px 10px;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: #1c4a36;
+    margin-top: 80px;
+    margin-left: 576px;
+    margin-right: 578px;
+}
+.faq-title2{
+    font-size: 46px;
+    line-height: 48px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+    width: 49%;
+    margin-left: 311px;
+}
+.faq-div{
+    margin-left: 338px;
+}
+.faq-details{
+    padding: 15px 40px 12px 0;
+}
+.faq-text{
+    color: #1c4a36;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.faq-para{
+    color: #686868;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    width: 65%;
+}
+.testomonials{
+    padding: 80px 67px;
+}
+.testomonials-text1{
+    background-color: #e4f5ee;
+    color: #1c4a36;
+    padding: 4px 10px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 547px;
+    margin-right: 549px;
+}
+.testomonials-text2{
+    font-size: 46px;
+    line-height: 48px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.boy-image{
+    width: 80px;
+    height: 83px;
+    border-radius: 52px;
+    margin-left: 568px;
+    margin-top: 50px;
+}
+.testomonials-para{
+    width: 56%;
+    color: #346b53;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 272px;
+    margin-top: 20px;
 }
