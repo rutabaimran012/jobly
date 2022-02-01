@@ -554,4 +554,300 @@ header{
 .boxes{
     margin-left: 587px;
     margin-top: 19px;
+    margin-bottom: 200px;
+}
+.mob-image{
+    width: 550px;
+    height: 620px;
+}
+.mob-div1{
+    display: flex;
+}
+.mob-div2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 111px;
+    margin-left: 107px;
+}
+.mob-div3{
+    display: flex;
+}
+.mob-heading1{
+    padding: 4px 10px;
+    border-radius: 2px;
+    background-color: #E4F5EE;
+    color: #346b53;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 408px;
+}
+.mob-heading2{
+    font-size: 46px;
+    line-height: 48px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 86%;
+}
+.mob-para{
+    color: #1c4a36;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.mob-heading3{
+    margin-bottom: 10px;
+    color: #686868;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.tickmark-image{
+    width: 13px;
+    height: 13px;
+    background-color: #E4F5EE;
+    margin: 0 6px 10px 0;
+    padding: 4px;
+}
+.mob-button1{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 55px;
+    background-image: url('https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/6113bee21e0b26224cc8ecf5_icons8-apple-logo-250.png');
+    background-position: 20px 50%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #e4f5ee;
+    color: #1c4a36;
+    font-weight: 600;
+    padding-right: 23px;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.mob-button1:hover{
+    background-color: #f2f8f5;
+}
+.mob-button2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 55px;
+    background-image: url('https://assets.website-files.com/61139ac7385e74ae2ca2c6fd/6113bee20c7714847d2146ad_icons8-google-play-250.png');
+    background-position: 20px 50%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #e4f5ee;
+    color: #1c4a36;
+    font-weight: 600;
+    padding-right: 23px;
+    border: none;
+    cursor: pointer;
+}
+.mob-button2:hover{
+    background-color: #f2f8f5;
+}
+.mob-button-div{
+    margin-top: 60px;
+}
+.client-head1{
+    color: #fff;
+    font-size: 15px;
+}
+.client-slash{
+    margin: 0 10px;
+    color: #B6B6B6;
+}
+.client-head-div{
+    display: flex;
+    margin-top: 277px;
+    margin-left: 120px;
+}
+.client-main-head{
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 15px 0 32px 0;
+    width: 88%;
+    text-align: center;
+    margin-left: 37px;
+}
+.client-button{
+    align-items: center;
+    border-radius: 4px;
+    background-color: #e4f5ee;
+    padding: 12px 20px;
+    color: #1c4a36;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left: 28px;
+}
+.client-button:hover{
+    background-color: #346b53;
+    color: #fff;
+}
+.client-div1{
+    display: flex;
+    margin-top: 60px;
+}
+.client-div2{
+    text-align: center;
+    background-image: url('https://assets.website-files.com/61139ac7385e7459f5a2c733/6113e6ba7d178c3fcc2cef86_blog-1-p-800.jpeg');
+    width: 470px;
+    height: 467px;
+    background-size: cover;
+    padding: 0 80px 30px 80px;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+.client-div3{
+    text-align: center;
+    background-image: url('https://assets.website-files.com/61139ac7385e7459f5a2c733/6113e6c5c9213a1b20b92ebb_blog-2-p-800.jpeg');
+    width: 470px;
+    height: 467px;
+    background-size: cover;
+    padding: 0 80px 30px 80px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+.question{
+    padding: 50px 67px;
+    background-color: #1c4a36;
+}
+.question__head{
+    font-size: 46px;
+    line-height: 48px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.question__title1{
+    padding: 4px 10px;
+    background-color: #E4F5EE;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: #1c4a36;
+    border: none;
+    margin-left: 563px;
+}
+.question__para{
+    font-size: 17px;
+    color: #FFFFFFCC;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 23px;
+    font-weight: 500;
+    width: 39%;
+    margin-left: 375px;
+}
+.question__links{
+    font-size: 17px;
+    color: #FFFFFFCC;
+}
+.question__links:hover{
+    text-decoration: none;
+}
+footer{
+    padding: 40px 67px 20px 67px;
+}
+.footer__joblyimage{
+    width: 70px;
+    height: 26px;
+}
+.footer__div1{
+    margin: 0 67px;
+}
+.twitter-image{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer__div2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.footer__button{
+    background-color: #1c4a36;
+    color: #fff;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.footer__button:hover{
+    background-color: #377057;
+}
+.footer__title{
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1c4a36;
+}
+.footer__div3{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__div4{
+    display: flex;
+    flex-direction: column;
+}
+.footer__div5{
+    display: flex;
+    flex-direction: column;
+    margin-right: -66px;
+}
+.footer__div6{
+    display: flex;
+    flex-direction: column;
+    margin-right: 124px;
+}
+.footer__links{
+    margin-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #1c4a36;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer__links:hover{
+    color: #377057;
+}
+.footer__imagesdiv{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-left: 10px;
+}
+.footer__lastpara{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #686868;
+}
+.footer__lastlink{
+    font-weight: 500;
+    font-size: 15px;
+    color: #1c4a36;
+}
+.footer__lastlink:hover{
+    text-decoration: none;
 }
